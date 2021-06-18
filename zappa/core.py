@@ -502,6 +502,8 @@ class Zappa:
             "--target",
             venv_site_packages_dir,
         ] + pkg_list
+        
+        print(command)
 
         # This is the recommended method for installing packages if you don't
         # to depend on `setuptools`
