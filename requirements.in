@@ -19,4 +19,4 @@ troposphere<3
 Werkzeug>=2.0
 wheel
 wsgi-request-logger
-pip-tools
+pip-tools==6.1.0
